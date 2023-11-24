@@ -1,0 +1,20 @@
+.contenedorfuturo {
+    margin: 0 $distancia * 2;
+    padding: $distancia * 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $distancia * 5;
+  
+    p {
+      font-size: 15px;
+    }
+  
+    .redodeado {
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }

@@ -1,0 +1,253 @@
+@media (max-width: 975px) {
+    .contenedor {
+      flex-direction: column;
+      margin: $distancia;
+      gap: $distancia;
+    }
+  
+    footer {
+      margin-top: $distancia * 5;
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .contenedor {
+      flex-direction: column;
+      margin: $distancia;
+      gap: $distancia;
+    }
+  
+    .contenedor img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 565px) {
+    footer {
+      margin: $distancia * 3 0;
+      width: 100%;
+      height: auto;
+  
+      .malla {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+  
+    .letrafooter {
+      margin-bottom: $distancia;
+    }
+  
+    .redes li i {
+      color: #011627;
+      font-size: 50px;
+      margin-right: $distancia * 2;
+      margin-left: $distancia * 2;
+    }
+  }
+  
+  @media (max-width: 245px) {
+    footer {
+      width: 100%;
+      height: auto;
+      font-size: 12px;
+  
+      .malla {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+  
+    .letrafooter {
+      margin-bottom: $distancia;
+    }
+  
+    .redes li i {
+      color: #011627;
+      font-size: 30px;
+      margin-right: $distancia / 2;
+      margin-left: $distancia / 2;
+      margin-top: $distancia / 2;
+    }
+  }
+  
+  @media (max-width: 1175px) {
+    .colormain {
+      .container1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+      }
+    }
+  }
+  
+  @media (max-width: 625px) {
+    .colormain {
+      .container1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+  
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 855px) {
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  @media (max-width: 325px) {
+    iframe {
+      width: 200px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 220px) {
+    iframe {
+      width: 150px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 1111px) {
+    .contenedor1 {
+      margin: $distancia * 3 $distancia * 5;
+      display: flex;
+      gap: $distancia * 3;
+      justify-content: center;
+      flex-direction: column;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  
+    .hijoorder {
+      order: 1;
+    }
+  
+    .textoprincipal {
+      order: 2;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contenedor1 {
+      margin: $distancia $distancia * 2;
+      display: flex;
+      gap: $distancia;
+      justify-content: center;
+      flex-direction: column;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  
+    .hijoorder {
+      order: 1;
+    }
+  
+    .textoprincipal {
+      order: 2;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        width: 600px;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        width: 500px;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 535px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 $distancia;
+      padding: $distancia;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 235px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        width: 100px;
+        height: auto;
+      }
+  
+      h2 {
+        font-size: small;
+        margin-top: $distancia * 2;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+      }
+  
+      .textoprincipal {
+        font-size: small;
+        margin-top: $distancia * 2;
+      }
+  
+      h3 {
+        font-size: small;
+      }
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.contenedor {
+    padding: $distancia * 3;
+    margin: 0 $distancia * 5;
+    display: flex;
+    gap: $distancia * 3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .redodeado {
+    border-radius: $borde;
+  }
+  
+  .textoprincipal {
+    margin-top: $distancia * 2;
+  }
+  

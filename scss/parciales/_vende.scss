@@ -1,0 +1,18 @@
+.contenedor1 {
+    margin: $distancia * 3 $distancia * 5;
+    display: flex;
+    gap: $distancia * 3;
+    justify-content: center;
+  }
+  
+  .tamaño {
+    width: 350px;
+    border-radius: $borde;
+  }
+  
+  .text {
+    margin-top: $distancia / 2;
+    font-size: 14px;
+    text-align: center;
+  }
+  
